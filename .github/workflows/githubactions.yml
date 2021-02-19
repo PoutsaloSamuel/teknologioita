@@ -22,7 +22,6 @@ jobs:
         python-version: 3.9
     - name: Test with pytest and run coverage
       run: |
-        coverage run -m pytest
         pytest
     - name: Generate report
       run: |
